@@ -1,4 +1,4 @@
-# Code to create a xslx file from json.
+# Code to create a xslx file from json (OCR).
 # Install openpyxl pip3 install openpyxl
 
 
