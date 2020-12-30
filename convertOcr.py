@@ -49,11 +49,11 @@ if __name__ == '__main__':
     ws_01.title = 'Ocr Records'
 
     # Set first row
-    ws_01.cell(1, 1, "scan ID")
-    ws_01.cell(1, 2, "start date UTC")
-    ws_01.cell(1, 3, "name")
-    ws_01.cell(1, 4, "invoice date")
-    ws_01.cell(1, 5, "address")
+    ws_01.cell(1, 1, "Scan ID")
+    ws_01.cell(1, 2, "Start Date UTC")
+    ws_01.cell(1, 3, "Name")
+    ws_01.cell(1, 4, "Invoice Date")
+    ws_01.cell(1, 5, "Address")
 
     row = 1
     for ocr in json_data.get("scans"):
