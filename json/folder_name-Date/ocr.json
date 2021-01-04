@@ -1,0 +1,187 @@
+{
+  "totalScans": 26,
+  "scans": [
+    {
+      "scanId": "e2189ff4-19bf-4a35-b88e-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:04:19.668Z",
+      "name": "WADE WILSON",
+      "invoiceDate": "JAN 01 20",
+      "address": "Safe House 21"
+    },
+    {
+      "scanId": "65e8233c-97b8-4011-8bbf-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:11:58.883Z"
+    },
+    {
+      "scanId": "924b7082-1197-481f-bc0b-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:14:34.182Z",
+      "name": "SLY COOPER",
+      "invoiceDate": "INMEDIATO",
+      "address": "Safe House 22"
+    },
+    {
+      "scanId": "6435563d-1a91-4aa7-ba7d-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:15:11.826Z",
+      "name": "PETER PARKER",
+      "invoiceDate": "JAN 01 20",
+      "address": "Safe House 23"
+    },
+    {
+      "scanId": "b94be7d9-6d02-4063-a8b8-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:16:31.890Z",
+      "name": "BENTLEY",
+      "invoiceDate": "31 OCT 20",
+      "address": "Safe House 24"
+    },
+    {
+      "scanId": "bd957d2e-bc77-454a-87bb-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:18:01.542Z",
+      "name": "MURRAY",
+      "address": "Safe House 25"
+    },
+    {
+      "scanId": "5876aec2-1cee-4665-9090-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:21:58.779Z",
+      "name": "CARMELITA FOX",
+      "invoiceDate": "17 ABR 20",
+      "address": "Safe House 26"
+    },
+    {
+      "scanId": "1490a878-6a05-420f-8eac-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:22:34.495Z",
+      "name": "CLOCKWERK",
+      "invoiceDate": "05 DIC 20",
+      "address": "Safe House 27"
+    },
+    {
+      "scanId": "4464f13f-f2f3-4c73-bf97-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:23:16.722Z",
+      "name": "CLOCKWERK",
+      "invoiceDate": "05 DIC 20",
+      "address": "Safe House 28"
+    },
+    {
+      "scanId": "5e6c0691-75a0-4252-b5bf-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:34:12.725Z",
+      "name": "CAROLINA FLORES",
+      "invoiceDate": "15-NOV-2020",
+      "address": "Theater Pickpocketing 1"
+    },
+    {
+      "scanId": "b8d96dc4-d2b3-46a6-9556-4c0c028d1997",
+      "startDateUtc": "2020-11-26T00:51:19.885Z",
+      "name": "NEYLA",
+      "address": "Theater Pickpocketing 2"
+    },
+    {
+      "scanId": "302b61ed-028d-4380-9b9d-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:05:50.131Z",
+      "name": "CARMELITA MONTOYA",
+      "invoiceDate": "31 OCT 20",
+      "address": "Theater Pickpocketing 3"
+    },
+    {
+      "scanId": "b771a1c8-2a0b-40a9-ad5a-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:11:26.965Z"
+    },
+    {
+      "scanId": "a1ee545a-b8f4-414d-aa2d-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:15:33.147Z",
+      "name": "CLOCK-LA",
+      "invoiceDate": "27-NOV-2020",
+      "address": "Theater Pickpocketing 4"
+    },
+    {
+      "scanId": "afc148ef-c6fe-4dde-a7c0-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:20:47.991Z",
+      "invoiceDate": "PROFECO"
+    },
+    {
+      "scanId": "2c7db035-8d47-45b1-b71c-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:20:52.595Z",
+      "name": "MIGUEL PEREZ",
+      "invoiceDate": "09 AGO 2020",
+      "address": "Theater Pickpocketing 5"
+    },
+    {
+      "scanId": "195344fe-2b50-4e1a-a0b3-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:24:25.527Z",
+      "name": "WOODS",
+      "invoiceDate": "20 NOV 20",
+      "address": "Theater Pickpocketing 6"
+    },
+    {
+      "scanId": "eb9ac3ce-abee-49d3-b95b-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:32:04.733Z"
+    },
+    {
+      "scanId": "8a932a89-d26f-48a6-873c-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:32:11.828Z"
+    },
+    {
+      "scanId": "e8167c23-3785-4c37-94be-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:32:17.053Z"
+    },
+    {
+      "scanId": "73eb64ae-726d-4983-bfd5-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:35:39.626Z"
+    },
+    {
+      "scanId": "02df70ec-d4e3-416e-b1fe-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:35:44.579Z"
+    },
+    {
+      "scanId": "7d2dbc18-ce48-4860-8585-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:35:49.260Z"
+    },
+    {
+      "scanId": "17f3cf78-4015-4f69-82be-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:49:34.177Z",
+      "address": "Theater Pickpocketing 7"
+    },
+    {
+      "scanId": "84a2a416-765a-4d35-902a-4c0c028d1997",
+      "startDateUtc": "2020-11-26T01:55:54.740Z",
+      "invoiceDate": "Dec 28 20"
+    },
+    {
+      "scanId": "ec30fe46-a2a7-417e-8eda-4c0c028d1997",
+      "startDateUtc": "2020-11-26T02:01:39.906Z",
+      "address": "Theater Pickpocketing 8"
+    }
+  ],
+  "dailyScans": {
+    "2020-11-25": 57,
+    "2020-11-26": 286,
+    "2020-11-27": 271,
+    "2020-11-28": 177,
+    "2020-11-29": 274,
+    "2020-11-30": 301,
+    "2020-12-01": 265,
+    "2020-12-02": 357,
+    "2020-12-03": 279,
+    "2020-12-04": 266,
+    "2020-12-05": 158,
+    "2020-12-06": 170,
+    "2020-12-07": 322,
+    "2020-12-08": 275,
+    "2020-12-09": 273,
+    "2020-12-10": 306,
+    "2020-12-11": 190,
+    "2020-12-12": 198,
+    "2020-12-13": 179,
+    "2020-12-14": 234,
+    "2020-12-15": 261,
+    "2020-12-16": 345,
+    "2020-12-17": 210,
+    "2020-12-18": 183,
+    "2020-12-19": 190,
+    "2020-12-20": 301,
+    "2020-12-21": 254,
+    "2020-12-22": 250,
+    "2020-12-23": 318,
+    "2020-12-24": 166,
+    "2020-12-25": 92,
+    "2020-12-26": 117
+  }
+}

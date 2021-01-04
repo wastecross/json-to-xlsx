@@ -1,0 +1,228 @@
+{
+  "totalVerifications": 19,
+  "pendingVerifications": 7,
+  "zeroTotalChecks": 4,
+  "verifications": [
+    {
+      "id": "1",
+      "identifier": "1106eb71-124b-4e07-892e-4c0c028d1997",
+      "startDateUtc": "2020-12-01T20:20:55.91786",
+      "checkTime": "00:00:00",
+      "documentType": null,
+      "countryCode": null,
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 0,
+      "successChecks": 0,
+      "warningChecks": 0,
+      "failedChecks": 0
+    },
+    {
+      "id": "2",
+      "identifier": "ea9797c4-b3fb-4849-4c0c028d1997",
+      "startDateUtc": "2020-12-02T16:09:06.5973086",
+      "checkTime": "00:00:00",
+      "documentType": null,
+      "countryCode": null,
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 0,
+      "successChecks": 0,
+      "warningChecks": 0,
+      "failedChecks": 0
+    },
+    {
+      "id": "3",
+      "identifier": "d785cf33-692c-4539-b6b6-4c0c028d1997",
+      "startDateUtc": "2020-12-03T04:19:56.8995883",
+      "checkTime": "00:00:01.4310000",
+      "documentType": "VotingCard",
+      "countryCode": "MEX",
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 4,
+      "successChecks": 2,
+      "warningChecks": 1,
+      "failedChecks": 1
+    },
+    {
+      "identifier": "379566be-cff4-40fd-97d7-4c0c028d1997",
+      "startDateUtc": "2020-12-08T22:11:59.869Z",
+      "status": "Pending"
+    },
+    {
+      "identifier": "7428a75b-d527-4f93-bf55-4c0c028d1997",
+      "startDateUtc": "2020-12-09T16:01:31.806Z",
+      "status": "Pending"
+    },
+    {
+      "id": "6",
+      "identifier": "8a9250a4-22c4-4bec-97c2-4c0c028d1997",
+      "startDateUtc": "2020-12-10T15:32:16.5793264",
+      "checkTime": "00:00:02.3970000",
+      "documentType": "VotingCard",
+      "countryCode": "MEX",
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 28,
+      "successChecks": 28,
+      "warningChecks": 0,
+      "failedChecks": 0
+    },
+    {
+      "identifier": "c359cdcf-4953-44e4-bc52-4c0c028d1997",
+      "startDateUtc": "2020-12-11T18:02:17.848Z",
+      "status": "Pending"
+    },
+    {
+      "id": "8",
+      "identifier": "7015b73b-dbf6-4991-913a-4c0c028d1997",
+      "startDateUtc": "2020-12-14T16:58:46.9885115",
+      "checkTime": "00:00:00",
+      "documentType": null,
+      "countryCode": null,
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 0,
+      "successChecks": 0,
+      "warningChecks": 0,
+      "failedChecks": 0
+    },
+    {
+      "id": "9",
+      "identifier": "2878fd59-01b9-48d0-aa6d-4c0c028d1997",
+      "startDateUtc": "2020-12-16T00:54:50.8401306",
+      "checkTime": "00:00:00",
+      "documentType": null,
+      "countryCode": null,
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 0,
+      "successChecks": 0,
+      "warningChecks": 0,
+      "failedChecks": 0
+    },
+    {
+      "id": "10",
+      "identifier": "44560012-fc91-4c4a-ba4b-4c0c028d1997",
+      "startDateUtc": "2020-12-16T19:22:55.5206465",
+      "checkTime": "00:00:01.7920000",
+      "documentType": "VotingCard",
+      "countryCode": "MEX",
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 28,
+      "successChecks": 28,
+      "warningChecks": 0,
+      "failedChecks": 0
+    },
+    {
+      "id": "11",
+      "identifier": "bf24ecb1-06e1-4527-b21a-4c0c028d1997",
+      "startDateUtc": "2020-12-16T19:22:59.1340946",
+      "checkTime": "00:00:02.3340000",
+      "documentType": "VotingCard",
+      "countryCode": "MEX",
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 27,
+      "successChecks": 27,
+      "warningChecks": 0,
+      "failedChecks": 0
+    },
+    {
+      "id": "12",
+      "identifier": "04c206e3-a9ce-4f97-b7f4-4c0c028d1997",
+      "startDateUtc": "2020-12-17T20:10:40.091016",
+      "checkTime": "00:00:01.6370000",
+      "documentType": "VotingCard",
+      "countryCode": "MEX",
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 22,
+      "successChecks": 11,
+      "warningChecks": 1,
+      "failedChecks": 10
+    },
+    {
+      "identifier": "13d0d2f6-5992-41da-b56b-4047f802e594",
+      "startDateUtc": "2020-12-18T17:28:59.890Z",
+      "status": "Pending"
+    },
+    {
+      "id": "14",
+      "identifier": "c70d5e67-8dcd-47be-a8ec-4c0c028d1997",
+      "startDateUtc": "2020-12-19T20:21:50.5376346",
+      "checkTime": "00:00:02.3230000",
+      "documentType": "VotingCard",
+      "countryCode": "MEX",
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 30,
+      "successChecks": 28,
+      "warningChecks": 0,
+      "failedChecks": 2
+    },
+    {
+      "identifier": "a95679d6-76ec-4312-9878-4c0c028d1997",
+      "startDateUtc": "2020-12-22T03:28:29.111Z",
+      "status": "Pending"
+    },
+    {
+      "id": "16",
+      "identifier": "3fa200a7-eec2-406a-882f-4c0c028d1997",
+      "startDateUtc": "2020-12-22T22:03:25.6909959",
+      "checkTime": "00:00:02.5070000",
+      "documentType": "VotingCard",
+      "countryCode": "MEX",
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 6,
+      "successChecks": 5,
+      "warningChecks": 1,
+      "failedChecks": 0
+    },
+    {
+      "identifier": "8aff0c30-20ed-4956-869d-4c0c028d1997",
+      "startDateUtc": "2020-12-28T18:30:27.785Z",
+      "status": "Pending"
+    },
+    {
+      "identifier": "fa2e2cbe-1791-44be-87fe-4c0c028d1997",
+      "startDateUtc": "2020-12-29T18:07:30.774Z",
+      "status": "Pending"
+    },
+    {
+      "id": "19",
+      "identifier": "9058bf1c-1eeb-48fb-ae5e-4c0c028d1997",
+      "startDateUtc": "2020-12-29T18:39:38.0281985",
+      "checkTime": "00:00:02.0250000",
+      "documentType": "VotingCard",
+      "countryCode": "MEX",
+      "spentCredits": 1,
+      "status": "Checked",
+      "totalChecks": 23,
+      "successChecks": 21,
+      "warningChecks": 0,
+      "failedChecks": 1
+    }
+  ],
+  "dailyVerifications": {
+    "2020-12-01": 1,
+    "2020-12-02": 2,
+    "2020-12-08": 1,
+    "2020-12-09": 1,
+    "2020-12-10": 1,
+    "2020-12-11": 1,
+    "2020-12-14": 1,
+    "2020-12-15": 1,
+    "2020-12-16": 2,
+    "2020-12-17": 1,
+    "2020-12-18": 1,
+    "2020-12-19": 1,
+    "2020-12-21": 1,
+    "2020-12-22": 1,
+    "2020-12-28": 1,
+    "2020-12-29": 2
+  }
+}
