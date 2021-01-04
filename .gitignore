@@ -1,0 +1,10 @@
+# Ignore all text files
+*.txt
+
+.vscode
+
+# Folder excel
+excel
+
+# Folder json
+json
