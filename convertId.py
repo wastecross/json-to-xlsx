@@ -13,64 +13,64 @@ fileXslx = f'./excel/{folder}/id.xlsx'
 
 
 def set_id():
-    if 'id' in idR:
-        ws_01.cell(row, 1, idR["id"])
+    if 'id' in idRecord:
+        ws_01.cell(row, 1, idRecord["id"])
     else:
         ws_01.cell(row, 1, "")
 
 
 def set_checkTime():
-    if 'checkTime' in idR:
-        ws_01.cell(row, 4, idR["checkTime"])
+    if 'checkTime' in idRecord:
+        ws_01.cell(row, 4, idRecord["checkTime"])
     else:
         ws_01.cell(row, 4, "")
 
 
 def set_documentType():
-    if 'documentType' in idR:
-        ws_01.cell(row, 5, idR["documentType"])
+    if 'documentType' in idRecord:
+        ws_01.cell(row, 5, idRecord["documentType"])
     else:
         ws_01.cell(row, 5, "")
 
 
 def set_countryCode():
-    if 'countryCode' in idR:
-        ws_01.cell(row, 6, idR["countryCode"])
+    if 'countryCode' in idRecord:
+        ws_01.cell(row, 6, idRecord["countryCode"])
     else:
         ws_01.cell(row, 6, "")
 
 
 def set_spentCredits():
-    if 'spentCredits' in idR:
-        ws_01.cell(row, 7, idR["spentCredits"])
+    if 'spentCredits' in idRecord:
+        ws_01.cell(row, 7, idRecord["spentCredits"])
     else:
         ws_01.cell(row, 7, "")
 
 
 def set_totalChecks():
-    if 'totalChecks' in idR:
-        ws_01.cell(row, 9, idR["totalChecks"])
+    if 'totalChecks' in idRecord:
+        ws_01.cell(row, 9, idRecord["totalChecks"])
     else:
         ws_01.cell(row, 9, "")
 
 
 def set_successChecks():
-    if 'successChecks' in idR:
-        ws_01.cell(row, 10, idR["successChecks"])
+    if 'successChecks' in idRecord:
+        ws_01.cell(row, 10, idRecord["successChecks"])
     else:
         ws_01.cell(row, 10, "")
 
 
 def set_warningChecks():
-    if 'warningChecks' in idR:
-        ws_01.cell(row, 11, idR["warningChecks"])
+    if 'warningChecks' in idRecord:
+        ws_01.cell(row, 11, idRecord["warningChecks"])
     else:
         ws_01.cell(row, 11, "")
 
 
 def set_failedChecks():
-    if 'failedChecks' in idR:
-        ws_01.cell(row, 12, idR["failedChecks"])
+    if 'failedChecks' in idRecord:
+        ws_01.cell(row, 12, idRecord["failedChecks"])
     else:
         ws_01.cell(row, 12, "")
 
@@ -105,16 +105,16 @@ if __name__ == '__main__':
     ws_01.cell(1, 12, "Failed Checks")
 
     row = 1
-    for idR in json_data.get("verifications"):
+    for idRecord in json_data.get("verifications"):
         row += 1
         set_id()
-        ws_01.cell(row, 2, idR["identifier"])
-        ws_01.cell(row, 3, idR["startDateUtc"])
+        ws_01.cell(row, 2, idRecord["identifier"])
+        ws_01.cell(row, 3, idRecord["startDateUtc"])
         set_checkTime()
         set_documentType()
         set_countryCode()
         set_spentCredits()
-        ws_01.cell(row, 8, idR["status"])
+        ws_01.cell(row, 8, idRecord["status"])
         set_totalChecks()
         set_successChecks()
         set_warningChecks()

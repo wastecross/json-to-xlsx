@@ -13,15 +13,15 @@ fileXslx = f'./excel/{folder}/nss.xlsx'
 
 
 def set_id():
-    if 'id' in nssR:
-        ws_01.cell(row, 1, nssR["id"])
+    if 'id' in nssRecord:
+        ws_01.cell(row, 1, nssRecord["id"])
     else:
         ws_01.cell(row, 1, "")
 
 
 def set_createdAt():
-    if 'createdAt' in nssR:
-        ws_01.cell(row, 2, nssR["createdAt"])
+    if 'createdAt' in nssRecord:
+        ws_01.cell(row, 2, nssRecord["createdAt"])
     else:
         ws_01.cell(row, 2, "")
 
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     ws_01.cell(1, 2, "Created At")
 
     row = 1
-    for nssR in json_data.get("verifications"):
+    for nssRecord in json_data.get("verifications"):
         row += 1
         set_id()
         set_createdAt()

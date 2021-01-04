@@ -13,15 +13,15 @@ fileXslx = f'./excel/{folder}/renapo.xlsx'
 
 
 def set_id():
-    if 'id' in curpR:
-        ws_01.cell(row, 1, curpR["id"])
+    if 'id' in curpRecord:
+        ws_01.cell(row, 1, curpRecord["id"])
     else:
         ws_01.cell(row, 1, "")
 
 
 def set_createdAt():
-    if 'createdAt' in curpR:
-        ws_01.cell(row, 2, curpR["createdAt"])
+    if 'createdAt' in curpRecord:
+        ws_01.cell(row, 2, curpRecord["createdAt"])
     else:
         ws_01.cell(row, 2, "")
 
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     ws_01.cell(1, 2, "Created At")
 
     row = 1
-    for curpR in json_data.get("verifications"):
+    for curpRecord in json_data.get("verifications"):
         row += 1
         set_id()
         set_createdAt()
