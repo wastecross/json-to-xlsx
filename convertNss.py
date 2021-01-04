@@ -1,4 +1,4 @@
-# Code to create a xslx file from json (CURP ==> RENAPO).
+# Code to create a xslx file from json (NSS).
 # Install openpyxl pip3 install openpyxl
 
 
@@ -8,20 +8,20 @@ from openpyxl import Workbook
 
 
 folder = 'folder_name-Date'
-fileJson = f'./json/{folder}/renapo.json'
-fileXslx = f'./excel/{folder}/renapo.xlsx'
+fileJson = f'./json/{folder}/nss.json'
+fileXslx = f'./excel/{folder}/nss.xlsx'
 
 
 def set_id():
-    if 'id' in curpR:
-        ws_01.cell(row, 1, curpR["id"])
+    if 'id' in nssR:
+        ws_01.cell(row, 1, nssR["id"])
     else:
         ws_01.cell(row, 1, "")
 
 
 def set_createdAt():
-    if 'createdAt' in curpR:
-        ws_01.cell(row, 2, curpR["createdAt"])
+    if 'createdAt' in nssR:
+        ws_01.cell(row, 2, nssR["createdAt"])
     else:
         ws_01.cell(row, 2, "")
 
@@ -39,14 +39,14 @@ if __name__ == '__main__':
     ws_01 = wb.active
 
     # Set the title of the worksheet
-    ws_01.title = 'RENAPO Records'
+    ws_01.title = 'INE Records'
 
     # Set first row
     ws_01.cell(1, 1, "ID")
     ws_01.cell(1, 2, "Created At")
 
     row = 1
-    for curpR in json_data.get("verifications"):
+    for nssR in json_data.get("verifications"):
         row += 1
         set_id()
         set_createdAt()
