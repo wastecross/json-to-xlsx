@@ -75,6 +75,13 @@ def set_failedChecks():
         ws_01.cell(row, 12, "")
 
 
+def set_faceVerification():
+    if 'failedChecks' in idRecord:
+        ws_01.cell(row, 13, idRecord["faceVerification"])
+    else:
+        ws_01.cell(row, 13, "")
+
+
 if __name__ == '__main__':
 
     json_data = {}
@@ -119,6 +126,7 @@ if __name__ == '__main__':
         set_successChecks()
         set_warningChecks()
         set_failedChecks()
+        set_faceVerification()
 
     # Save it in an Excel file
     wb.save(fileXslx)
