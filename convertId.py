@@ -110,6 +110,7 @@ if __name__ == '__main__':
     ws_01.cell(1, 10, "Success Checks")
     ws_01.cell(1, 11, "Warning Checks")
     ws_01.cell(1, 12, "Failed Checks")
+    ws_01.cell(1, 13, "Face Verification")
 
     row = 1
     for idRecord in json_data.get("verifications"):
