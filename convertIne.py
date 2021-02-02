@@ -7,7 +7,7 @@ import openpyxl
 from openpyxl import Workbook
 
 
-folder = 'folder_name-Date'
+folder = 'folder_name'
 fileJson = f'./json/{folder}/ine.json'
 fileXslx = f'./excel/{folder}/ine.xlsx'
 
