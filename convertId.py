@@ -7,7 +7,7 @@ import openpyxl
 from openpyxl import Workbook
 
 
-folder = 'folder_name-Date'
+folder = 'folder_name'
 fileJson = f'./json/{folder}/id.json'
 fileXslx = f'./excel/{folder}/id.xlsx'
 
@@ -76,7 +76,7 @@ def set_failedChecks():
 
 
 def set_faceVerification():
-    if 'failedChecks' in idRecord:
+    if 'faceVerification' in idRecord:
         ws_01.cell(row, 13, idRecord["faceVerification"])
     else:
         ws_01.cell(row, 13, "")
