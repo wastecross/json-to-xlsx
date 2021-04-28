@@ -83,7 +83,7 @@ def set_faceVerification():
 
 
 def set_controlList():
-    if 'controlLis' in idRecord:
+    if 'controlList' in idRecord:
         ws_01.cell(row, 14, idRecord["controlList"])
     else:
         ws_01.cell(row, 14, "")
