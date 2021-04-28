@@ -82,6 +82,13 @@ def set_faceVerification():
         ws_01.cell(row, 13, "")
 
 
+def set_controlList():
+    if 'controlLis' in idRecord:
+        ws_01.cell(row, 14, idRecord["controlList"])
+    else:
+        ws_01.cell(row, 14, "")
+
+
 if __name__ == '__main__':
 
     json_data = {}
@@ -111,6 +118,7 @@ if __name__ == '__main__':
     ws_01.cell(1, 11, "Warning Checks")
     ws_01.cell(1, 12, "Failed Checks")
     ws_01.cell(1, 13, "Face Verification")
+    ws_01.cell(1, 14, "Control List")
 
     row = 1
     for idRecord in json_data.get("verifications"):
@@ -128,6 +136,7 @@ if __name__ == '__main__':
         set_warningChecks()
         set_failedChecks()
         set_faceVerification()
+        set_controlList()
 
     # Save it in an Excel file
     wb.save(fileXslx)
