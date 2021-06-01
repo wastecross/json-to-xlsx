@@ -8,8 +8,9 @@ from openpyxl import Workbook
 
 
 folder = 'folder_name'
-fileJson = f'./json/{folder}/id.json'
-fileXslx = f'./excel/{folder}/id.xlsx'
+file = 'id'
+file_json = f'./json/{folder}/{file}.json'
+file_xslx = f'./excel/{folder}/{file}.xlsx'
 
 
 def set_id():
@@ -93,7 +94,7 @@ if __name__ == '__main__':
 
     json_data = {}
 
-    with open(fileJson) as json_file:
+    with open(file_json) as json_file:
         json_data = json.load(json_file)
 
     wb = Workbook()
@@ -139,4 +140,4 @@ if __name__ == '__main__':
         set_controlList()
 
     # Save it in an Excel file
-    wb.save(fileXslx)
+    wb.save(file_xslx)

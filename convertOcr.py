@@ -8,8 +8,9 @@ from openpyxl import Workbook
 
 
 folder = 'folder_name'
-fileJson = f'./json/{folder}/ocr.json'
-fileXslx = f'./excel/{folder}/ocr.xlsx'
+file = 'ocr'
+file_json = f'./json/{folder}/{file}.json'
+file_xslx = f'./excel/{folder}/{file}.xlsx'
 
 
 def set_name():
@@ -37,7 +38,7 @@ if __name__ == '__main__':
 
     json_data = {}
 
-    with open(fileJson) as json_file:
+    with open(file_json) as json_file:
         json_data = json.load(json_file)
 
     wb = Workbook()
@@ -65,4 +66,4 @@ if __name__ == '__main__':
         set_address()
 
     # Save it in an Excel file
-    wb.save(fileXslx)
+    wb.save(file_xslx)
