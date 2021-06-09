@@ -8,8 +8,9 @@ from openpyxl import Workbook
 
 
 folder = 'folder_name'
-fileJson = f'./json/{folder}/criminal.json'
-fileXslx = f'./excel/{folder}/criminal.xlsx'
+file = 'criminal'
+fileJson = f'./json/{folder}/{file}.json'
+fileXslx = f'./excel/{folder}/{file}.xlsx'
 
 
 def set_id():
