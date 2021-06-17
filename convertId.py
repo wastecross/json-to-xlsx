@@ -90,6 +90,13 @@ def set_controlList():
         ws_01.cell(row, 14, "")
 
 
+def set_expert_used():
+    if 'expertUsed' in idRecord:
+        ws_01.cell(row, 15, idRecord["expertUsed"])
+    else:
+        ws_01.cell(row, 15, "")
+
+
 if __name__ == '__main__':
 
     json_data = {}
@@ -120,6 +127,7 @@ if __name__ == '__main__':
     ws_01.cell(1, 12, "Failed Checks")
     ws_01.cell(1, 13, "Face Verification")
     ws_01.cell(1, 14, "Control List")
+    ws_01.cell(1, 15, "Expert Used")
 
     row = 1
     for idRecord in json_data.get("verifications"):
@@ -138,6 +146,7 @@ if __name__ == '__main__':
         set_failedChecks()
         set_faceVerification()
         set_controlList()
+        set_expert_used()
 
     # Save it in an Excel file
     wb.save(file_xslx)
