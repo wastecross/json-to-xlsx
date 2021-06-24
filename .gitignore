@@ -2,9 +2,3 @@
 *.txt
 
 .vscode
-
-# Folder excel
-excel
-
-# Folder json
-json
