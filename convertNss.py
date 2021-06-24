@@ -40,7 +40,7 @@ if __name__ == '__main__':
     ws_01 = wb.active
 
     # Set the title of the worksheet
-    ws_01.title = 'INE Records'
+    ws_01.title = 'NSS Records'
 
     # Set first row
     ws_01.cell(1, 1, "ID")
