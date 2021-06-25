@@ -13,29 +13,18 @@ fileJson = f'./json/{folder}/{file}.json'
 fileXslx = f'./excel/{folder}/{file}.xlsx'
 
 
-def set_language():
+def set_language_english():
     if 'en' in translationRecord:
         ws_01.cell(row, 1, translationRecord["en"])
     else:
         ws_01.cell(row, 1, "")
 
 
-def set_data():
-    if 'data' in translationRecord:
-        for attr, value in translationRecord["data"].items():
-            if attr == 'successChecks':
-                ws_01.cell(row, 3, value)
-            if attr == 'warningChecks':
-                ws_01.cell(row, 4, value)
-            if attr == 'failedChecks':
-                ws_01.cell(row, 5, value)
-            if attr == 'globalResult':
-                ws_01.cell(row, 6, value)
+def set_language_spanish():
+    if 'es' in translationRecord:
+        ws_01.cell(row, 2, translationRecord["es"])
     else:
-        ws_01.cell(row, 3, "")
-        ws_01.cell(row, 4, "")
-        ws_01.cell(row, 5, "")
-        ws_01.cell(row, 6, "")
+        ws_01.cell(row, 2, "")
 
 
 if __name__ == '__main__':
@@ -60,7 +49,12 @@ if __name__ == '__main__':
     row = 1
     for translationRecord in json_data.get("languages"):
         row += 1
-        set_language()
+        set_language_english()
+
+    row = 1
+    for translationRecord in json_data.get("languages"):
+        row += 1
+        set_language_spanish()
 
     # Save it in an Excel file
     wb.save(fileXslx)
